@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-27T06:55:45.345392Z",
+  "generated_at": "2026-02-27T07:48:18.325877Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 418,
+      "duration_ms": 520,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 304,
+      "duration_ms": 308,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 445,
-      "duration_ms": 15279,
+      "item_count": 450,
+      "duration_ms": 18598,
       "error": null
     },
     {
@@ -30,23 +30,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 83,
-      "duration_ms": 4604,
+      "duration_ms": 1947,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3030,
-      "duration_ms": 1611,
+      "item_count": 3028,
+      "duration_ms": 1626,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 73,
-      "duration_ms": 366,
+      "item_count": 72,
+      "duration_ms": 296,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 46,
-      "duration_ms": 157,
+      "duration_ms": 178,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1013,
+      "duration_ms": 1377,
       "error": null
     },
     {
@@ -70,29 +70,29 @@
       "site_name": "AI今日热榜",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 90,
+      "duration_ms": 54,
       "error": "403 Client Error: Forbidden for url: https://aihot.today/"
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 1401,
-      "duration_ms": 1560,
+      "item_count": 1373,
+      "duration_ms": 661,
       "error": null
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "ok": true,
-      "partial_failures": 1,
-      "item_count": 1597,
-      "duration_ms": 14044,
-      "error": "1 feeds failed",
+      "partial_failures": 0,
+      "item_count": 1617,
+      "duration_ms": 2708,
+      "error": null,
       "feed_count": 3,
       "effective_feed_count": 3,
-      "ok_feed_count": 2,
-      "failed_feed_count": 1,
+      "ok_feed_count": 3,
+      "failed_feed_count": 0,
       "skipped_feed_count": 0,
       "replaced_feed_count": 0
     }
@@ -102,18 +102,16 @@
     "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 7844,
-  "items_before_topic_filter": 14456,
-  "items_in_24h": 1616,
+  "fetched_raw_items": 7838,
+  "items_before_topic_filter": 14526,
+  "items_in_24h": 1612,
   "rss_opml": {
     "enabled": true,
     "path": "feeds/follow.opml",
     "feed_total": 3,
     "effective_feed_total": 3,
-    "ok_feeds": 2,
-    "failed_feeds": [
-      "https://www.infoq.cn/feed"
-    ],
+    "ok_feeds": 3,
+    "failed_feeds": [],
     "zero_item_feeds": [],
     "skipped_feeds": [],
     "replaced_feeds": [],
@@ -126,7 +124,7 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": true,
         "item_count": 740,
-        "duration_ms": 627,
+        "duration_ms": 608,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -138,10 +136,10 @@
         "feed_title": "InfoQ CN",
         "feed_url": "https://www.infoq.cn/feed",
         "effective_feed_url": "https://www.infoq.cn/feed",
-        "ok": false,
-        "item_count": 0,
-        "duration_ms": 12815,
-        "error": "HTTPSConnectionPool(host='www.infoq.cn', port=443): Read timed out. (read timeout=12)",
+        "ok": true,
+        "item_count": 20,
+        "duration_ms": 1510,
+        "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false
@@ -154,7 +152,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 857,
-        "duration_ms": 602,
+        "duration_ms": 590,
         "error": null,
         "skipped": false,
         "skip_reason": null,
